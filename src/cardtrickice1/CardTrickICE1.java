@@ -16,7 +16,11 @@ public class CardTrickICE1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       
+       var luckyCard = new Card();
+        luckycard.setSuits("hearts");
+        luckycard.setValue("9");
+        System.out.println(luckyCard.Card);
+        
          Scanner input = new Scanner(System.in);
         Card[] magicHand = new Card[7]; //Array of object
         for( int i=0;i<magicHand.length;i++)
